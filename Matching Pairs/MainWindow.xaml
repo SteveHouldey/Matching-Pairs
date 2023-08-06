@@ -23,28 +23,31 @@
         </Grid.RowDefinitions>
         
         <!-- Row 0-->
-        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap"/>
-        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Grid.Column="1"/>
-        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Grid.Column="2"/>
-        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Grid.Column="3"/>
+        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" MouseDown="TextBlock_MouseDown"/>
+        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Grid.Column="1" MouseDown="TextBlock_MouseDown"/>
+        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Grid.Column="2" MouseDown="TextBlock_MouseDown"/>
+        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Grid.Column="3" MouseDown="TextBlock_MouseDown"/>
 
         <!-- Row 1-->
-        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Grid.Row="1"/>
-        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Grid.Row="1" Grid.Column="1"/>
-        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Grid.Row="1" Grid.Column="2"/>
-        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Grid.Row="1" Grid.Column="3"/>
+        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Grid.Row="1" MouseDown="TextBlock_MouseDown"/>
+        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Grid.Row="1" Grid.Column="1" MouseDown="TextBlock_MouseDown"/>
+        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Grid.Row="1" Grid.Column="2" MouseDown="TextBlock_MouseDown"/>
+        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Grid.Row="1" Grid.Column="3" MouseDown="TextBlock_MouseDown"/>
 
         <!-- Row 2-->
-        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Grid.Row="2"/>
-        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Grid.Row="2" Grid.Column="1"/>
-        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Grid.Row="2" Grid.Column="2"/>
-        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Grid.Row="2" Grid.Column="3"/>
+        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Grid.Row="2" MouseDown="TextBlock_MouseDown"/>
+        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Grid.Row="2" Grid.Column="1" MouseDown="TextBlock_MouseDown"/>
+        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Grid.Row="2" Grid.Column="2" MouseDown="TextBlock_MouseDown"/>
+        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Grid.Row="2" Grid.Column="3" MouseDown="TextBlock_MouseDown"/>
 
         <!-- Row 1-->
-        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Grid.Row="3"/>
-        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Grid.Row="3" Grid.Column="1"/>
-        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Grid.Row="3" Grid.Column="2"/>
-        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Grid.Row="3" Grid.Column="3"/>
-        
+        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Grid.Row="3" MouseDown="TextBlock_MouseDown"/>
+        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Grid.Row="3" Grid.Column="1" MouseDown="TextBlock_MouseDown"/>
+        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Grid.Row="3" Grid.Column="2" MouseDown="TextBlock_MouseDown"/>
+        <TextBlock Text="?" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Grid.Row="3" Grid.Column="3" MouseDown="TextBlock_MouseDown"/>
+       
+        <!-- Time Lapsed-->
+        <TextBlock x:Name="timeTextBlock" Grid.ColumnSpan="4" HorizontalAlignment="Center" Grid.Row="4" TextWrapping="Wrap" FontSize="36" Text="Elapsed Time" VerticalAlignment="Center" MouseDown="timeTextBlock_MouseDown"/>
+
     </Grid>
 </Window>
